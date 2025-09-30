@@ -1,7 +1,7 @@
 {
   "name": "MASTER-IP_MD",
   "version": "4.5.0",
-  "description": "A WhatsApp Bot Created By TKT-TECH",
+  "description": "A WhatsApp Bot Created By MASTER-IP",
   "main": "index.js",
   "scripts": {
     "start": "pm2 start index.js --deep-monitoring --attach --name MASTER-IP_MD",
