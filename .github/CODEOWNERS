@@ -1,7 +1,7 @@
 # Code Owners for Liora WhatsApp Bot
 
 # Default owner for everything
-* @naruyaizumi
+*.TKT-TECH
 
 # Specific directories
 /.github/ @naruyaizumi
