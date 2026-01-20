@@ -2,13 +2,13 @@
 
 set -euo pipefail
 
-GITHUB_RAW="https://raw.githubusercontent.com/naruyaizumi/liora/main/src/lib/shell"
-SERVICE_NAME="liora"
+GITHUB_RAW="https://raw.githubusercontent.com/1praise7012/MASTER-IP_MD-V3/main/src/lib/shell"
+SERVICE_NAME="MASTER-IP_MD"
 SERVICE_FILE="/etc/systemd/system/liora.service"
 HELPER_FILE="/usr/local/bin/bot"
 WORK_DIR="/root/liora"
 BUN_PATH="/root/.bun/bin/bun"
-REPO_URL="https://github.com/naruyaizumi/liora.git"
+REPO_URL="https://github.com/1PRAISE7012/MASTER-IP_MD-V3.git"
 TIME_ZONE="Asia/Jakarta"
 
 print_error() { echo "[ERROR] $1" >&2; }
@@ -51,13 +51,13 @@ print_banner() {
     cat << "EOF"
 +------------------------------------------+
 |                                          |
-|          LIORA BOT INSTALLER             |
+|          MASTER-IP_BOT🇿🇼 INSTALLER             |
 |                                          |
 +------------------------------------------+
 
-Repository: https://github.com/naruyaizumi/liora
+Repository: https://github.com/1PRAISE7012/MASTER-IP_MD-V3
 License:    Apache 2.0
-Author:     Naruya Izumi
+Author:     TAFADZWATKT
 
 EOF
 }
